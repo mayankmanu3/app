@@ -1,0 +1,25 @@
+.sidebar {
+  width: 150px;
+  background: linear-gradient(#8a2387, #e94057, #f27121);
+}
+.mobile-sidenav {
+  width: 48px !important;
+}
+.sidebar a {
+  color: white;
+  border-left: 3px solid transparent;
+}
+.sidebar a:hover {
+  color: lightgray;
+}
+.searchicon {
+  background: #e0dfdf;
+  color: #6d6b6b;
+}
+.nav-item .active {
+  border-left: 3px solid white !important;
+}
+li button {
+  border: 0;
+  background: transparent;
+}

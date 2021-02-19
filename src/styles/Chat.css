@@ -1,0 +1,47 @@
+.chat-window {
+  height: 400px;
+  box-shadow: 1px 2px 30px gray;
+}
+.message {
+  width: 80%;
+}
+.time {
+  color: gray;
+  position: relative;
+  top: -20px;
+}
+.message-text {
+  background: lightgray;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  font-size: 14px;
+}
+.mymessage .time {
+  color: whitesmoke;
+}
+.mymessage .message-text {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  color: whitesmoke;
+}
+.messages {
+  height: 280px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.messageBox {
+  width: 85%;
+  border-radius: 100px;
+}
+.messageBox2 {
+  width: 85%;
+}
+.sendicon {
+  width: 50px;
+  height: 50px;
+}
+.chat-users,
+.mymessage .message-text,
+.sendicon {
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
